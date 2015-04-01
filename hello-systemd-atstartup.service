@@ -1,0 +1,9 @@
+[Unit]
+Description=An "atstartup" example
+
+[Service]
+Type=oneshot
+ExecStart=/usr/sbin/hello-systemd-atstartup
+
+[Install]
+WantedBy=multi-user.target
